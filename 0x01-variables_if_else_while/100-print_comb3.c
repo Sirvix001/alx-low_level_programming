@@ -3,7 +3,7 @@
 /**
  * main - print single digits starting from 0
  *
- * Return: returns to zero at the end.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
