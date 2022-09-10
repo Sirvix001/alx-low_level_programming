@@ -3,8 +3,8 @@
 
 /**
  * main - Entry point
- * Description: check that prints base 10 single numbers
- * Return:|0 Always Success
+ * Description: check that prints letters below 10
+ * Return: 0
  */
 
 int main(void)
@@ -12,9 +12,8 @@ int main(void)
 int x;
 for (x = 0; x < 10; x++)
 {
-printf("%d", x);
+putchar(x + '0');
 }
 putchar('\n');
 return (0);
 }
-
