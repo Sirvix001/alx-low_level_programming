@@ -4,7 +4,7 @@
 /**
  * Main - Application entry point
  *
- * Return Always success
+ * Return: 0  Always success
  */
 int main(void)
 {
