@@ -9,7 +9,7 @@
 int main(void)
 {
 int c;
-for (c = '0'; c <= '0'; c++)
+for (c = '0'; c <= '0' ; c++)
 {
 putchar(c);
 if (c != '9')
