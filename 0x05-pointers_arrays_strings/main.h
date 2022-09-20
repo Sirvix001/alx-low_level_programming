@@ -1,34 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-/**
- * main - program that generates random valid
- *
- * Return : ALways 0 (success)
- */
-int main(void)
-{
-int pass [100];
-int i, sum, n;
-
-sum = 0;
-
-srand(time(NULL));
-
-for (i = 0; i < 100; i++)
-{
-pass[i] = rand() % 78;
-sum += (pass[i] + '0');
-putchar(pass[i] + '0');
-if ((2772 - sum) - '0' < 78)
-{
-n = 2772 - sum - '0';
-sum += n;
-putchar(n + '0');
-break;
-}
-}
-
-return (0);
-}
+int _putchar(char);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
