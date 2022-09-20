@@ -12,7 +12,7 @@ while (count >= 0)
 {
 if (s[count] == '\0')
 break;
-count ++;
+count++;
 }
 for (count--; count >= 0; count--)
 _putchar(s[count]);
